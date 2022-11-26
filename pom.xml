@@ -18,12 +18,11 @@
 
     <dependencies>
 
+        <!-- https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxjava -->
         <dependency>
-            <groupId>com.bat.splib</groupId>
-            <artifactId>serial-port-connect-lib</artifactId>
-            <scope>system</scope>
-            <version>v_1.0.0</version>
-            <systemPath>${basedir}\lib\splib-v_1.0.0.jar</systemPath>
+            <groupId>io.reactivex.rxjava2</groupId>
+            <artifactId>rxjava</artifactId>
+            <version>2.2.16</version>
         </dependency>
 
     </dependencies>
@@ -32,11 +31,10 @@
     <build>
         <resources>
             <resource>
-                <directory>${basedir}\lib\</directory>
+                <directory>resources</directory>
                 <includes>
                     <include>**/*.properties</include>
                     <include>soundfiles/*</include>
-                    <include>**/*.jar</include>
                 </includes>
             </resource>
         </resources>
