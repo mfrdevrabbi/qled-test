@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="splib-v_1.0.0">
+  <library name="ledlib-1.0.0">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/splib-v_1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ledlib-1.0.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
