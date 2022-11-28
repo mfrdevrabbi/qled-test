@@ -3,9 +3,9 @@
     <output-path>$PROJECT_DIR$/out/artifacts/qp_led_test_jar</output-path>
     <root id="archive" name="qp-led-test.jar">
       <element id="module-output" name="qp-led-test" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/ledlib-1.0.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/reactivex/rxjava2/rxjava/2.2.16/rxjava-2.2.16.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/ledlib-1.0.0.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
