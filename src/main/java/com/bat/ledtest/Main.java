@@ -13,6 +13,7 @@ public class Main {
         communicator.displayMessage(1,"Message  text");
         communicator.displayToken(1,1,"R002");
 
+
     }
 
     private void systemSleep(){
